@@ -1,5 +1,5 @@
 # iOS-NetworkExtension-NEHotspotHelper
-
+简书地址：http://www.jianshu.com/p/aa6219925c2e
 >NOTE
 - 应用程序的Info.plist必须添加一个包含“网络认证”的UIBackgroundModes数组
 - 应用程序必须设置“com.apple.developer.networking.HotspotHelper'作为它的权利之一。该权利的值是一个布尔值true
