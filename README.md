@@ -105,3 +105,15 @@ NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:@"WI-FI TAG",
     }];
 
 ```
+
+> 获得失败时可能需要以下设置
+- 创建项目 App id 时配置 App Services - Wireless Accessory Configuration
+- 在项目中配置 plist 文件
+```
+<key>UIBackgroundModels</key>
+<array> 
+      <string>network-authentication</string>
+</array>
+```
+- 在项目的 entitlements 后缀的文件中添加 com.apple.developer.networking.HotspotHelper 权利
+- 要进入到【无线局域网】设置页面才能获取 wifi 列表
